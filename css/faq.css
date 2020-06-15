@@ -1,0 +1,91 @@
+body{
+	height: 100%;
+	background-color: aqua;
+
+}
+h1{
+	margin: 0 auto;
+	font-size: 35px;
+display: block;
+background-color: tomato;
+	text-align: center;
+	margin-top: 7%;
+	margin-bottom: 2%;
+	color: #fff;
+
+}
+p{
+	color: #000;
+	text-align: center;
+	margin-top: 1%;
+}
+#container{
+	width:700px;
+	height:auto;
+	margin: 0 auto;
+}
+.FAQ label{
+	display: block;
+	border-bottom: 1px solid #fff;
+	cursor: pointer;
+	color: #fff;
+	padding: 10px;
+	background-color: tomato;
+
+}
+.FAQ p{
+	color: #fff;
+	padding: 20px;
+	line-height: 30px;
+	visibility: hidden;
+	opacity: 0;
+	display: none;
+	text-align: left;
+margin: 0;
+	background-color: #000;
+}
+#FAQ1:checked~ .single-text{
+	display: block;
+	opacity: 1;
+	visibility: visible;
+}
+#FAQ1{
+	display: none;
+	position: relative;
+}
+#FAQ2:checked~ .single-text{
+	display: block;
+	opacity: 1;
+	visibility: visible;
+}
+#FAQ2{
+	display: none;
+	position: relative;
+}
+#FAQ3:checked~ .single-text{
+	display: block;
+	opacity: 1;
+	visibility: visible;
+}
+#FAQ3{
+	display: none;
+	position: relative;
+}
+#FAQ4:checked~ .single-text{
+	display: block;
+	opacity: 1;
+	visibility: visible;
+}
+#FAQ4{
+	display: none;
+	position: relative;
+}
+#FAQ5:checked~ .single-text{
+	display: block;
+	opacity: 1;
+	visibility: visible;
+}
+#FAQ5{
+	display: none;
+	position: relative;
+}
