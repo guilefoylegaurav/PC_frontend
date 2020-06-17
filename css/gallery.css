@@ -10,6 +10,7 @@ body {
   grid-auto-rows: 100px 300px;
   grid-gap: 10px;
   grid-auto-flow: dense;
+  background-color: #456dc7;
 }
 
 .gallery-item {
