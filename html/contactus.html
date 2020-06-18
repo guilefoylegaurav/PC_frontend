@@ -7,41 +7,44 @@
     <title>Contact Us</title>
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <h1>contact us</h1>
-      </div>
-      <div class="row">
-        <h4 style="text-align: center;">We'd love to hear from you!</h4>
-      </div>
-      <div class="row input-container">
-        <div class="col-xs-12">
-          <div class="styled-input wide">
-            <input type="text" required />
-            <label>Name</label>
+    <h1 style="margin-bottom: 50px; text-align: center; margin-top: 100px;">
+      Get in Touch
+    </h1>
+
+    <div class="contact-us">
+      <div class="contact">
+        <form action="#">
+          <div style="margin-bottom: 50px;" class="contact-one">
+            <div class="contact-name">
+              <label>First Name</label>
+              <br />
+              <input class="contact-input" type="text" name="name" />
+            </div>
+            <div class="contact-email">
+              <label>Last Name</label>
+              <br />
+              <input class="contact-input" type="email" name="email" />
+            </div>
           </div>
-        </div>
-        <div class="col-md-6 col-sm-12">
-          <div class="styled-input">
-            <input type="text" required />
-            <label>Email</label>
+          <div class="contact-one">
+            <div class="contact-name">
+              <label>Phone Number </label>
+              <br />
+              <input class="contact-input" type="text" name="name" />
+            </div>
+            <div class="contact-email">
+              <label>Email</label>
+              <br />
+              <input class="contact-input" type="email" name="email" />
+            </div>
           </div>
-        </div>
-        <div class="col-md-6 col-sm-12">
-          <div class="styled-input" style="float: right;">
-            <input type="text" required />
-            <label>Phone Number</label>
-          </div>
-        </div>
-        <div class="col-xs-12">
-          <div class="styled-input wide">
-            <textarea required></textarea>
+          <div class="contact-two">
             <label>Message</label>
+            <br />
+            <input class="contact-input" type="text" name="name" />
           </div>
-        </div>
-        <div class="col-xs-12">
-          <div class="btn-lrg submit-btn">Send Message</div>
-        </div>
+          <button class="contact-submit" type="submit">Submit</button>
+        </form>
       </div>
     </div>
   </body>
